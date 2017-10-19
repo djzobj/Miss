@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46222FBB1F8E0FFE009E0A8F /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46222FBA1F8E0FFE009E0A8F /* BViewController.m */; };
+		46222FBE1F8E1169009E0A8F /* CViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46222FBD1F8E1169009E0A8F /* CViewController.m */; };
 		468196911F582457006FB93E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 468196901F582457006FB93E /* main.m */; };
 		468196941F582457006FB93E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 468196931F582457006FB93E /* AppDelegate.m */; };
 		468196971F582457006FB93E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 468196961F582457006FB93E /* ViewController.m */; };
 		4681969A1F582457006FB93E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 468196981F582457006FB93E /* Main.storyboard */; };
 		4681969C1F582457006FB93E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4681969B1F582457006FB93E /* Assets.xcassets */; };
 		4681969F1F582457006FB93E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4681969D1F582457006FB93E /* LaunchScreen.storyboard */; };
+		46AFD66D1F7A2F5D002F07B7 /* GjjPresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 46AFD6661F7A2F5D002F07B7 /* GjjPresentation.m */; };
+		46AFD66E1F7A2F5D002F07B7 /* GjjTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 46AFD6681F7A2F5D002F07B7 /* GjjTransitionAnimator.m */; };
+		46AFD66F1F7A2F5D002F07B7 /* TransitionBubbleAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 46AFD66A1F7A2F5D002F07B7 /* TransitionBubbleAnimator.m */; };
+		46AFD6701F7A2F5D002F07B7 /* TransitionFadeAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 46AFD66C1F7A2F5D002F07B7 /* TransitionFadeAnimator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		46222FB91F8E0FFE009E0A8F /* BViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
+		46222FBA1F8E0FFE009E0A8F /* BViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
+		46222FBC1F8E1169009E0A8F /* CViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CViewController.h; sourceTree = "<group>"; };
+		46222FBD1F8E1169009E0A8F /* CViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CViewController.m; sourceTree = "<group>"; };
 		4681968C1F582457006FB93E /* Miss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Miss.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		468196901F582457006FB93E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		468196921F582457006FB93E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +36,15 @@
 		4681969B1F582457006FB93E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4681969E1F582457006FB93E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		468196A01F582457006FB93E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46AFD6641F790801002F07B7 /* Miss.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Miss.pch; sourceTree = "<group>"; };
+		46AFD6651F7A2F5D002F07B7 /* GjjPresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GjjPresentation.h; sourceTree = "<group>"; };
+		46AFD6661F7A2F5D002F07B7 /* GjjPresentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GjjPresentation.m; sourceTree = "<group>"; };
+		46AFD6671F7A2F5D002F07B7 /* GjjTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GjjTransitionAnimator.h; sourceTree = "<group>"; };
+		46AFD6681F7A2F5D002F07B7 /* GjjTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GjjTransitionAnimator.m; sourceTree = "<group>"; };
+		46AFD6691F7A2F5D002F07B7 /* TransitionBubbleAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionBubbleAnimator.h; sourceTree = "<group>"; };
+		46AFD66A1F7A2F5D002F07B7 /* TransitionBubbleAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionBubbleAnimator.m; sourceTree = "<group>"; };
+		46AFD66B1F7A2F5D002F07B7 /* TransitionFadeAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionFadeAnimator.h; sourceTree = "<group>"; };
+		46AFD66C1F7A2F5D002F07B7 /* TransitionFadeAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionFadeAnimator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +81,18 @@
 				468196931F582457006FB93E /* AppDelegate.m */,
 				468196951F582457006FB93E /* ViewController.h */,
 				468196961F582457006FB93E /* ViewController.m */,
+				46222FB91F8E0FFE009E0A8F /* BViewController.h */,
+				46222FBA1F8E0FFE009E0A8F /* BViewController.m */,
+				46222FBC1F8E1169009E0A8F /* CViewController.h */,
+				46222FBD1F8E1169009E0A8F /* CViewController.m */,
+				46AFD6651F7A2F5D002F07B7 /* GjjPresentation.h */,
+				46AFD6661F7A2F5D002F07B7 /* GjjPresentation.m */,
+				46AFD6671F7A2F5D002F07B7 /* GjjTransitionAnimator.h */,
+				46AFD6681F7A2F5D002F07B7 /* GjjTransitionAnimator.m */,
+				46AFD6691F7A2F5D002F07B7 /* TransitionBubbleAnimator.h */,
+				46AFD66A1F7A2F5D002F07B7 /* TransitionBubbleAnimator.m */,
+				46AFD66B1F7A2F5D002F07B7 /* TransitionFadeAnimator.h */,
+				46AFD66C1F7A2F5D002F07B7 /* TransitionFadeAnimator.m */,
 				468196981F582457006FB93E /* Main.storyboard */,
 				4681969B1F582457006FB93E /* Assets.xcassets */,
 				4681969D1F582457006FB93E /* LaunchScreen.storyboard */,
@@ -75,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				468196901F582457006FB93E /* main.m */,
+				46AFD6641F790801002F07B7 /* Miss.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -151,8 +183,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				468196971F582457006FB93E /* ViewController.m in Sources */,
+				46AFD6701F7A2F5D002F07B7 /* TransitionFadeAnimator.m in Sources */,
+				46222FBE1F8E1169009E0A8F /* CViewController.m in Sources */,
+				46AFD66F1F7A2F5D002F07B7 /* TransitionBubbleAnimator.m in Sources */,
+				46AFD66E1F7A2F5D002F07B7 /* GjjTransitionAnimator.m in Sources */,
 				468196941F582457006FB93E /* AppDelegate.m in Sources */,
+				46222FBB1F8E0FFE009E0A8F /* BViewController.m in Sources */,
 				468196911F582457006FB93E /* main.m in Sources */,
+				46AFD66D1F7A2F5D002F07B7 /* GjjPresentation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +310,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = Miss/Miss.pch;
 				INFOPLIST_FILE = Miss/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = djz.Miss;
@@ -283,6 +322,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = Miss/Miss.pch;
 				INFOPLIST_FILE = Miss/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = djz.Miss;
@@ -309,6 +349,7 @@
 				468196A51F582457006FB93E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

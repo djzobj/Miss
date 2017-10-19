@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import <CoreText/CoreText.h>
+#import "BViewController.h"
 
 @interface ViewController ()
 
@@ -19,49 +20,13 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    // 定义变量
-    int a = 1;
-    
-    // 允许修改值
-    a = 20;
-    
-    // const两种用法
-    // const:修饰基本变量p
-    // 这两种写法是一样的，const只修饰右边的基本变量b
-    const int b = 20; // b:只读变量
-//    int const b = 20; // b:只读变量
-    
-    // 不允许修改值
-   // b = 1;
-    
-    // const:修饰指针变量*p，带*的变量，就是指针变量.
-    // 定义一个指向int类型的指针变量，指向a的地址
-    int *p = &a;
-    
-    int c = 10;
-    
-    p = &c;
-    
-    // 允许修改p指向的地址，
-    // 允许修改p访问内存空间的值
-    *p = 20;
-    
-    // const修饰指针变量访问的内存空间，修饰的是右边*p1，
-    // 两种方式一样
-    const int *p1 = p; // *p1：常量 p1:变量
-//    int const *p1; // *p1：常量 p1:变量
-    
-    p1 = p;
-    
-    // const修饰指针变量p1
-//    int * const p1; // *p1:变量 p1:常量
-    
-    
-    // 第一个const修饰*p1 第二个const修饰 p1 
-    // 两种方式一样 
-//    const int * const p1; // *p1：常量 p1：常量 
-    
-//    int const * const p1; // *p1：常量 p1：常量
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(doOpen)];
+    [self.view addGestureRecognizer:tap];
+}
+
+-(void)doOpen{
+    UIViewController *controller = [[BViewController alloc]initWithNibName:nil bundle:nil];
+    [self.navigationController pushViewController:controller animated:YES];
 }
 
 -(void)drawText{
