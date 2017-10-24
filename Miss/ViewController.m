@@ -22,6 +22,8 @@
     
     UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(doOpen)];
     [self.view addGestureRecognizer:tap];
+    
+    NSLog(@"sourcetree");
 }
 
 -(void)doOpen{
