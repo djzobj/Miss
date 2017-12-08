@@ -25,6 +25,9 @@
     self.title = @"首页";
     _weexHeight = self.view.frame.size.height;
     [self render];
+    
+    NSLog(@"");
+    
 }
 
 - (void)render
