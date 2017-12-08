@@ -1,0 +1,20 @@
+PODS:
+  - Masonry (1.1.0)
+  - SDWebImage (4.2.2):
+    - SDWebImage/Core (= 4.2.2)
+  - SDWebImage/Core (4.2.2)
+  - WeexSDK (0.17.0)
+
+DEPENDENCIES:
+  - Masonry
+  - SDWebImage
+  - WeexSDK
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SDWebImage: 89a9d32cd520bbb46eb14e541d5109b3564af198
+  WeexSDK: ad8443f4290ef7cb241bbd4c03b02d9dfc9fdca2
+
+PODFILE CHECKSUM: b3d7c9e711457d27e00479b5e2556076f019391f
+
+COCOAPODS: 1.4.0.beta.2

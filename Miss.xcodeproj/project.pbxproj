@@ -7,44 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		46222FBB1F8E0FFE009E0A8F /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46222FBA1F8E0FFE009E0A8F /* BViewController.m */; };
-		46222FBE1F8E1169009E0A8F /* CViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46222FBD1F8E1169009E0A8F /* CViewController.m */; };
-		468196911F582457006FB93E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 468196901F582457006FB93E /* main.m */; };
-		468196941F582457006FB93E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 468196931F582457006FB93E /* AppDelegate.m */; };
-		468196971F582457006FB93E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 468196961F582457006FB93E /* ViewController.m */; };
-		4681969A1F582457006FB93E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 468196981F582457006FB93E /* Main.storyboard */; };
-		4681969C1F582457006FB93E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4681969B1F582457006FB93E /* Assets.xcassets */; };
-		4681969F1F582457006FB93E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4681969D1F582457006FB93E /* LaunchScreen.storyboard */; };
-		46AFD66D1F7A2F5D002F07B7 /* GjjPresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 46AFD6661F7A2F5D002F07B7 /* GjjPresentation.m */; };
-		46AFD66E1F7A2F5D002F07B7 /* GjjTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 46AFD6681F7A2F5D002F07B7 /* GjjTransitionAnimator.m */; };
-		46AFD66F1F7A2F5D002F07B7 /* TransitionBubbleAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 46AFD66A1F7A2F5D002F07B7 /* TransitionBubbleAnimator.m */; };
-		46AFD6701F7A2F5D002F07B7 /* TransitionFadeAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 46AFD66C1F7A2F5D002F07B7 /* TransitionFadeAnimator.m */; };
+		2CB3ADEC085131510D163ACD /* libPods-Miss.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C495A2B931A00BE366D78B87 /* libPods-Miss.a */; };
+		4672BA961FD6713100BF6620 /* icon_licai_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4672BA901FD6713000BF6620 /* icon_licai_selected@2x.png */; };
+		4672BA971FD6713100BF6620 /* icon_zichan_unselected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4672BA911FD6713000BF6620 /* icon_zichan_unselected@2x.png */; };
+		4672BA981FD6713100BF6620 /* icon_home_unselected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4672BA921FD6713000BF6620 /* icon_home_unselected@2x.png */; };
+		4672BA991FD6713100BF6620 /* icon_zichan_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4672BA931FD6713000BF6620 /* icon_zichan_selected@2x.png */; };
+		4672BA9A1FD6713100BF6620 /* icon_home_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4672BA941FD6713100BF6620 /* icon_home_selected@2x.png */; };
+		4672BA9B1FD6713100BF6620 /* icon_licai_unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 4672BA951FD6713100BF6620 /* icon_licai_unselected.png */; };
+		4672BAA11FD6747400BF6620 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4672BAA01FD6747400BF6620 /* HomeViewController.m */; };
+		4672BAA41FD6748400BF6620 /* CenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4672BAA31FD6748400BF6620 /* CenterViewController.m */; };
+		4672BAA71FD6749200BF6620 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4672BAA61FD6749200BF6620 /* MineViewController.m */; };
+		468816951FD677610063F86A /* UIColor+Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 468816931FD677600063F86A /* UIColor+Extra.m */; };
+		468816991FD6819D0063F86A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 468816981FD6819D0063F86A /* LaunchScreen.xib */; };
+		4688169E1FD689230063F86A /* hello.js in Resources */ = {isa = PBXBuildFile; fileRef = 4688169D1FD689230063F86A /* hello.js */; };
+		468816A11FD68DFF0063F86A /* WXImgLoaderDefaultImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 468816A01FD68DFF0063F86A /* WXImgLoaderDefaultImpl.m */; };
+		468816A31FD69B090063F86A /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = 468816A21FD69B090063F86A /* index.js */; };
+		469405561FD7873D0042C527 /* index1.js in Resources */ = {isa = PBXBuildFile; fileRef = 469405551FD7873D0042C527 /* index1.js */; };
+		4698E5271FD567DC00DC2C1E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4698E5251FD567DC00DC2C1E /* AppDelegate.m */; };
+		4698E52C1FD567ED00DC2C1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4698E5291FD567EC00DC2C1E /* main.m */; };
+		4698E52D1FD567ED00DC2C1E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4698E52B1FD567ED00DC2C1E /* Info.plist */; };
+		4698E52F1FD5680600DC2C1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4698E52E1FD5680600DC2C1E /* Assets.xcassets */; };
+		4698E5371FD568F700DC2C1E /* DJZNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4698E5361FD568F700DC2C1E /* DJZNavigationController.m */; };
+		4698E53A1FD569DD00DC2C1E /* DJZBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4698E5391FD569DD00DC2C1E /* DJZBaseController.m */; };
+		4698E53D1FD56AA600DC2C1E /* DJZTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4698E53C1FD56AA600DC2C1E /* DJZTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		46222FB91F8E0FFE009E0A8F /* BViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
-		46222FBA1F8E0FFE009E0A8F /* BViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
-		46222FBC1F8E1169009E0A8F /* CViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CViewController.h; sourceTree = "<group>"; };
-		46222FBD1F8E1169009E0A8F /* CViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CViewController.m; sourceTree = "<group>"; };
+		390F29D9CAE8484EABFFE339 /* Pods-Miss.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Miss.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Miss/Pods-Miss.debug.xcconfig"; sourceTree = "<group>"; };
+		4672BA901FD6713000BF6620 /* icon_licai_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_licai_selected@2x.png"; sourceTree = "<group>"; };
+		4672BA911FD6713000BF6620 /* icon_zichan_unselected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_zichan_unselected@2x.png"; sourceTree = "<group>"; };
+		4672BA921FD6713000BF6620 /* icon_home_unselected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_home_unselected@2x.png"; sourceTree = "<group>"; };
+		4672BA931FD6713000BF6620 /* icon_zichan_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_zichan_selected@2x.png"; sourceTree = "<group>"; };
+		4672BA941FD6713100BF6620 /* icon_home_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_home_selected@2x.png"; sourceTree = "<group>"; };
+		4672BA951FD6713100BF6620 /* icon_licai_unselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_licai_unselected.png; sourceTree = "<group>"; };
+		4672BA9F1FD6747400BF6620 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		4672BAA01FD6747400BF6620 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		4672BAA21FD6748400BF6620 /* CenterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CenterViewController.h; sourceTree = "<group>"; };
+		4672BAA31FD6748400BF6620 /* CenterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CenterViewController.m; sourceTree = "<group>"; };
+		4672BAA51FD6749200BF6620 /* MineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		4672BAA61FD6749200BF6620 /* MineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
 		4681968C1F582457006FB93E /* Miss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Miss.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		468196901F582457006FB93E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		468196921F582457006FB93E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		468196931F582457006FB93E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		468196951F582457006FB93E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		468196961F582457006FB93E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		468196991F582457006FB93E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4681969B1F582457006FB93E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4681969E1F582457006FB93E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		468196A01F582457006FB93E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		46AFD6641F790801002F07B7 /* Miss.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Miss.pch; sourceTree = "<group>"; };
-		46AFD6651F7A2F5D002F07B7 /* GjjPresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GjjPresentation.h; sourceTree = "<group>"; };
-		46AFD6661F7A2F5D002F07B7 /* GjjPresentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GjjPresentation.m; sourceTree = "<group>"; };
-		46AFD6671F7A2F5D002F07B7 /* GjjTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GjjTransitionAnimator.h; sourceTree = "<group>"; };
-		46AFD6681F7A2F5D002F07B7 /* GjjTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GjjTransitionAnimator.m; sourceTree = "<group>"; };
-		46AFD6691F7A2F5D002F07B7 /* TransitionBubbleAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionBubbleAnimator.h; sourceTree = "<group>"; };
-		46AFD66A1F7A2F5D002F07B7 /* TransitionBubbleAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionBubbleAnimator.m; sourceTree = "<group>"; };
-		46AFD66B1F7A2F5D002F07B7 /* TransitionFadeAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionFadeAnimator.h; sourceTree = "<group>"; };
-		46AFD66C1F7A2F5D002F07B7 /* TransitionFadeAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionFadeAnimator.m; sourceTree = "<group>"; };
+		468816931FD677600063F86A /* UIColor+Extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extra.m"; sourceTree = "<group>"; };
+		468816941FD677600063F86A /* UIColor+Extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extra.h"; sourceTree = "<group>"; };
+		468816981FD6819D0063F86A /* LaunchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = Miss/LaunchScreen.xib; sourceTree = SOURCE_ROOT; };
+		4688169D1FD689230063F86A /* hello.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = hello.js; sourceTree = "<group>"; };
+		4688169F1FD68DFF0063F86A /* WXImgLoaderDefaultImpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXImgLoaderDefaultImpl.h; sourceTree = "<group>"; };
+		468816A01FD68DFF0063F86A /* WXImgLoaderDefaultImpl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXImgLoaderDefaultImpl.m; sourceTree = "<group>"; };
+		468816A21FD69B090063F86A /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
+		469405551FD7873D0042C527 /* index1.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index1.js; sourceTree = "<group>"; };
+		4698E5241FD567DC00DC2C1E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Miss/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		4698E5251FD567DC00DC2C1E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Miss/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		4698E5291FD567EC00DC2C1E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Miss/main.m; sourceTree = SOURCE_ROOT; };
+		4698E52A1FD567ED00DC2C1E /* Miss.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Miss.pch; path = Miss/Miss.pch; sourceTree = SOURCE_ROOT; };
+		4698E52B1FD567ED00DC2C1E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Miss/Info.plist; sourceTree = SOURCE_ROOT; };
+		4698E52E1FD5680600DC2C1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Miss/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		4698E5351FD568F700DC2C1E /* DJZNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJZNavigationController.h; sourceTree = "<group>"; };
+		4698E5361FD568F700DC2C1E /* DJZNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJZNavigationController.m; sourceTree = "<group>"; };
+		4698E5381FD569DD00DC2C1E /* DJZBaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJZBaseController.h; sourceTree = "<group>"; };
+		4698E5391FD569DD00DC2C1E /* DJZBaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJZBaseController.m; sourceTree = "<group>"; };
+		4698E53B1FD56AA600DC2C1E /* DJZTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJZTabBarController.h; sourceTree = "<group>"; };
+		4698E53C1FD56AA600DC2C1E /* DJZTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJZTabBarController.m; sourceTree = "<group>"; };
+		8EAAAD091E4757B1C168C08D /* Pods-Miss.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Miss.release.xcconfig"; path = "Pods/Target Support Files/Pods-Miss/Pods-Miss.release.xcconfig"; sourceTree = "<group>"; };
+		C495A2B931A00BE366D78B87 /* libPods-Miss.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Miss.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,17 +76,63 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CB3ADEC085131510D163ACD /* libPods-Miss.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4672BA8F1FD6711F00BF6620 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				4672BA941FD6713100BF6620 /* icon_home_selected@2x.png */,
+				4672BA921FD6713000BF6620 /* icon_home_unselected@2x.png */,
+				4672BA901FD6713000BF6620 /* icon_licai_selected@2x.png */,
+				4672BA951FD6713100BF6620 /* icon_licai_unselected.png */,
+				4672BA931FD6713000BF6620 /* icon_zichan_selected@2x.png */,
+				4672BA911FD6713000BF6620 /* icon_zichan_unselected@2x.png */,
+			);
+			name = images;
+			path = Miss/images;
+			sourceTree = SOURCE_ROOT;
+		};
+		4672BA9C1FD6745300BF6620 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				4672BAA51FD6749200BF6620 /* MineViewController.h */,
+				4672BAA61FD6749200BF6620 /* MineViewController.m */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		4672BA9D1FD6745300BF6620 /* Center */ = {
+			isa = PBXGroup;
+			children = (
+				4672BAA21FD6748400BF6620 /* CenterViewController.h */,
+				4672BAA31FD6748400BF6620 /* CenterViewController.m */,
+			);
+			path = Center;
+			sourceTree = "<group>";
+		};
+		4672BA9E1FD6745300BF6620 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4672BA9F1FD6747400BF6620 /* HomeViewController.h */,
+				4672BAA01FD6747400BF6620 /* HomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		468196831F582457006FB93E = {
 			isa = PBXGroup;
 			children = (
-				4681968E1F582457006FB93E /* Miss */,
+				4698E51F1FD5678100DC2C1E /* Resource */,
+				4698E5201FD5678B00DC2C1E /* Main */,
+				4698E5221FD5679600DC2C1E /* Application */,
 				4681968D1F582457006FB93E /* Products */,
+				F1C22EF472E9AD14DF9AC936 /* Pods */,
+				EAF3473A6E4CF8D94D7C9AE2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,41 +144,135 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4681968E1F582457006FB93E /* Miss */ = {
+		468816921FD6774C0063F86A /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				468196921F582457006FB93E /* AppDelegate.h */,
-				468196931F582457006FB93E /* AppDelegate.m */,
-				468196951F582457006FB93E /* ViewController.h */,
-				468196961F582457006FB93E /* ViewController.m */,
-				46222FB91F8E0FFE009E0A8F /* BViewController.h */,
-				46222FBA1F8E0FFE009E0A8F /* BViewController.m */,
-				46222FBC1F8E1169009E0A8F /* CViewController.h */,
-				46222FBD1F8E1169009E0A8F /* CViewController.m */,
-				46AFD6651F7A2F5D002F07B7 /* GjjPresentation.h */,
-				46AFD6661F7A2F5D002F07B7 /* GjjPresentation.m */,
-				46AFD6671F7A2F5D002F07B7 /* GjjTransitionAnimator.h */,
-				46AFD6681F7A2F5D002F07B7 /* GjjTransitionAnimator.m */,
-				46AFD6691F7A2F5D002F07B7 /* TransitionBubbleAnimator.h */,
-				46AFD66A1F7A2F5D002F07B7 /* TransitionBubbleAnimator.m */,
-				46AFD66B1F7A2F5D002F07B7 /* TransitionFadeAnimator.h */,
-				46AFD66C1F7A2F5D002F07B7 /* TransitionFadeAnimator.m */,
-				468196981F582457006FB93E /* Main.storyboard */,
-				4681969B1F582457006FB93E /* Assets.xcassets */,
-				4681969D1F582457006FB93E /* LaunchScreen.storyboard */,
-				468196A01F582457006FB93E /* Info.plist */,
-				4681968F1F582457006FB93E /* Supporting Files */,
+				468816941FD677600063F86A /* UIColor+Extra.h */,
+				468816931FD677600063F86A /* UIColor+Extra.m */,
 			);
-			path = Miss;
+			name = Category;
 			sourceTree = "<group>";
 		};
-		4681968F1F582457006FB93E /* Supporting Files */ = {
+		4688169C1FD6891D0063F86A /* js */ = {
 			isa = PBXGroup;
 			children = (
-				468196901F582457006FB93E /* main.m */,
-				46AFD6641F790801002F07B7 /* Miss.pch */,
+				468816A21FD69B090063F86A /* index.js */,
+				4688169D1FD689230063F86A /* hello.js */,
+				469405551FD7873D0042C527 /* index1.js */,
 			);
-			name = "Supporting Files";
+			name = js;
+			path = Miss/js;
+			sourceTree = SOURCE_ROOT;
+		};
+		4698E51F1FD5678100DC2C1E /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				4688169C1FD6891D0063F86A /* js */,
+				4672BA8F1FD6711F00BF6620 /* images */,
+				468816981FD6819D0063F86A /* LaunchScreen.xib */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		4698E5201FD5678B00DC2C1E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4698E5331FD5689700DC2C1E /* Expand */,
+				4698E5301FD5689700DC2C1E /* Model */,
+				4698E5311FD5689700DC2C1E /* View */,
+				4698E5321FD5689700DC2C1E /* ViewControllers */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		4698E5221FD5679600DC2C1E /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				4698E5241FD567DC00DC2C1E /* AppDelegate.h */,
+				4698E5251FD567DC00DC2C1E /* AppDelegate.m */,
+				4698E5231FD567A100DC2C1E /* Support Files */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		4698E5231FD567A100DC2C1E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4698E52E1FD5680600DC2C1E /* Assets.xcassets */,
+				4698E52B1FD567ED00DC2C1E /* Info.plist */,
+				4698E5291FD567EC00DC2C1E /* main.m */,
+				4698E52A1FD567ED00DC2C1E /* Miss.pch */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		4698E5301FD5689700DC2C1E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4688169F1FD68DFF0063F86A /* WXImgLoaderDefaultImpl.h */,
+				468816A01FD68DFF0063F86A /* WXImgLoaderDefaultImpl.m */,
+			);
+			name = Model;
+			path = Miss/Model;
+			sourceTree = SOURCE_ROOT;
+		};
+		4698E5311FD5689700DC2C1E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			path = Miss/View;
+			sourceTree = SOURCE_ROOT;
+		};
+		4698E5321FD5689700DC2C1E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4672BA9E1FD6745300BF6620 /* Home */,
+				4672BA9D1FD6745300BF6620 /* Center */,
+				4672BA9C1FD6745300BF6620 /* Mine */,
+				4698E5341FD568A200DC2C1E /* Base */,
+			);
+			name = ViewControllers;
+			path = Miss/ViewControllers;
+			sourceTree = SOURCE_ROOT;
+		};
+		4698E5331FD5689700DC2C1E /* Expand */ = {
+			isa = PBXGroup;
+			children = (
+				468816921FD6774C0063F86A /* Category */,
+			);
+			name = Expand;
+			path = Miss/Expand;
+			sourceTree = SOURCE_ROOT;
+		};
+		4698E5341FD568A200DC2C1E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				4698E5351FD568F700DC2C1E /* DJZNavigationController.h */,
+				4698E5361FD568F700DC2C1E /* DJZNavigationController.m */,
+				4698E5381FD569DD00DC2C1E /* DJZBaseController.h */,
+				4698E5391FD569DD00DC2C1E /* DJZBaseController.m */,
+				4698E53B1FD56AA600DC2C1E /* DJZTabBarController.h */,
+				4698E53C1FD56AA600DC2C1E /* DJZTabBarController.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		EAF3473A6E4CF8D94D7C9AE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C495A2B931A00BE366D78B87 /* libPods-Miss.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1C22EF472E9AD14DF9AC936 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				390F29D9CAE8484EABFFE339 /* Pods-Miss.debug.xcconfig */,
+				8EAAAD091E4757B1C168C08D /* Pods-Miss.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,9 +282,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 468196A31F582457006FB93E /* Build configuration list for PBXNativeTarget "Miss" */;
 			buildPhases = (
+				09ECFF3DA42858C8007CB796 /* [CP] Check Pods Manifest.lock */,
 				468196881F582457006FB93E /* Sources */,
 				468196891F582457006FB93E /* Frameworks */,
 				4681968A1F582457006FB93E /* Resources */,
+				27C82662C596B6E215B5FD8A /* [CP] Embed Pods Frameworks */,
+				0FB53D18BD6FF29E9CA98D26 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -142,6 +309,7 @@
 				TargetAttributes = {
 					4681968B1F582457006FB93E = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = AV65WZLBH6;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -169,51 +337,97 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4681969F1F582457006FB93E /* LaunchScreen.storyboard in Resources */,
-				4681969C1F582457006FB93E /* Assets.xcassets in Resources */,
-				4681969A1F582457006FB93E /* Main.storyboard in Resources */,
+				4698E52F1FD5680600DC2C1E /* Assets.xcassets in Resources */,
+				4688169E1FD689230063F86A /* hello.js in Resources */,
+				4672BA9B1FD6713100BF6620 /* icon_licai_unselected.png in Resources */,
+				4698E52D1FD567ED00DC2C1E /* Info.plist in Resources */,
+				4672BA971FD6713100BF6620 /* icon_zichan_unselected@2x.png in Resources */,
+				469405561FD7873D0042C527 /* index1.js in Resources */,
+				4672BA961FD6713100BF6620 /* icon_licai_selected@2x.png in Resources */,
+				468816A31FD69B090063F86A /* index.js in Resources */,
+				4672BA981FD6713100BF6620 /* icon_home_unselected@2x.png in Resources */,
+				4672BA991FD6713100BF6620 /* icon_zichan_selected@2x.png in Resources */,
+				468816991FD6819D0063F86A /* LaunchScreen.xib in Resources */,
+				4672BA9A1FD6713100BF6620 /* icon_home_selected@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09ECFF3DA42858C8007CB796 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Miss-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0FB53D18BD6FF29E9CA98D26 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Miss/Pods-Miss-resources.sh",
+				"${PODS_ROOT}/WeexSDK/pre-build/native-bundle-main.js",
+				"${PODS_ROOT}/WeexSDK/ios/sdk/WeexSDK/Resources/wx_load_error@3x.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Miss/Pods-Miss-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27C82662C596B6E215B5FD8A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Miss/Pods-Miss-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		468196881F582457006FB93E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				468196971F582457006FB93E /* ViewController.m in Sources */,
-				46AFD6701F7A2F5D002F07B7 /* TransitionFadeAnimator.m in Sources */,
-				46222FBE1F8E1169009E0A8F /* CViewController.m in Sources */,
-				46AFD66F1F7A2F5D002F07B7 /* TransitionBubbleAnimator.m in Sources */,
-				46AFD66E1F7A2F5D002F07B7 /* GjjTransitionAnimator.m in Sources */,
-				468196941F582457006FB93E /* AppDelegate.m in Sources */,
-				46222FBB1F8E0FFE009E0A8F /* BViewController.m in Sources */,
-				468196911F582457006FB93E /* main.m in Sources */,
-				46AFD66D1F7A2F5D002F07B7 /* GjjPresentation.m in Sources */,
+				468816951FD677610063F86A /* UIColor+Extra.m in Sources */,
+				4698E52C1FD567ED00DC2C1E /* main.m in Sources */,
+				4698E53A1FD569DD00DC2C1E /* DJZBaseController.m in Sources */,
+				4698E5371FD568F700DC2C1E /* DJZNavigationController.m in Sources */,
+				4698E53D1FD56AA600DC2C1E /* DJZTabBarController.m in Sources */,
+				4698E5271FD567DC00DC2C1E /* AppDelegate.m in Sources */,
+				4672BAA11FD6747400BF6620 /* HomeViewController.m in Sources */,
+				468816A11FD68DFF0063F86A /* WXImgLoaderDefaultImpl.m in Sources */,
+				4672BAA41FD6748400BF6620 /* CenterViewController.m in Sources */,
+				4672BAA71FD6749200BF6620 /* MineViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		468196981F582457006FB93E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				468196991F582457006FB93E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4681969D1F582457006FB93E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4681969E1F582457006FB93E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		468196A11F582457006FB93E /* Debug */ = {
@@ -308,24 +522,28 @@
 		};
 		468196A41F582457006FB93E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 390F29D9CAE8484EABFFE339 /* Pods-Miss.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AV65WZLBH6;
 				GCC_PREFIX_HEADER = Miss/Miss.pch;
 				INFOPLIST_FILE = Miss/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = djz.Miss;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jianbing.jiekuan.beta;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		468196A51F582457006FB93E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EAAAD091E4757B1C168C08D /* Pods-Miss.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AV65WZLBH6;
 				GCC_PREFIX_HEADER = Miss/Miss.pch;
 				INFOPLIST_FILE = Miss/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = djz.Miss;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jianbing.jiekuan.beta;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

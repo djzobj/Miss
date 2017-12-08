@@ -7,6 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import <WeexSDK/WXSDKEngine.h>
+#import <WeexSDK/WXDebugTool.h>
+#import <WeexSDK/WXLog.h>
+#import <WeexSDK/WXAppConfiguration.h>
+#import "WXImgLoaderDefaultImpl.h"
 
 @interface AppDelegate ()
 
@@ -16,8 +21,28 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    UIViewController *rootController = [NSClassFromString(@"DJZTabBarController") new];
+    self.window.rootViewController = rootController;
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.tag = 4040;
+    [self.window makeKeyAndVisible];
+    
+    
+    //business configuration
+    [WXAppConfiguration setAppGroup:@"AliApp"];
+    [WXAppConfiguration setAppName:@"WeexDemo"];
+    [WXAppConfiguration setAppVersion:@"1.0.0"];
+    //init sdk environment
+    [WXSDKEngine initSDKEnvironment];
+    
+    [WXSDKEngine registerHandler:[WXImgLoaderDefaultImpl new] withProtocol:@protocol(WXImgLoaderProtocol)];
 
+    //set the log level
+    [WXLog setLogLevel: WXLogLevelAll];
+
+    
     return YES;
 }
 
