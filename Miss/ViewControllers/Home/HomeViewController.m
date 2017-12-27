@@ -27,7 +27,7 @@
     [self render];
     
     NSLog(@"");
-    
+    NSLog(@"");
 }
 
 - (void)render

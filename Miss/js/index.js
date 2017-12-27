@@ -92,23 +92,58 @@
 /***/ (function(module, exports) {
 
 	module.exports = {
-	  "wrapper": {
+	  "broadcast-arrow": {
+	    "marginRight": 15
+	  },
+	  "broadcast-list-box": {
+	    "backgroundColor": "#FF0000",
+	    "height": 30
+	  },
+	  "broadcast-icon": {
+	    "height": 20,
+	    "width": 20
+	  },
+	  "broadcast": {
+	    "height": 30,
+	    "flexDirection": "row",
 	    "alignItems": "center",
-	    "marginTop": 120
+	    "marginLeft": 15,
+	    "marginRight": 15,
+	    "backgroundColor": "#f8f8f8",
+	    "borderRadius": 15
 	  },
-	  "title": {
-	    "paddingTop": 40,
-	    "paddingBottom": 40,
-	    "fontSize": 48
+	  "navigationBar": {
+	    "height": 44,
+	    "flexDirection": "row",
+	    "alignItems": "center",
+	    "marginLeft": 15
 	  },
-	  "logo": {
-	    "width": 360,
-	    "height": 156
+	  "navigationBar-title": {
+	    "fontSize": 24,
+	    "backgroundColor": "#FFFFFF"
 	  },
-	  "desc": {
-	    "paddingTop": 20,
-	    "color": "#888888",
-	    "fontSize": 24
+	  "navigationBar-icon": {
+	    "width": 32,
+	    "height": 32
+	  },
+	  "tool-box": {
+	    "flexDirection": "row"
+	  },
+	  "tool": {
+	    "flexDirection": "column",
+	    "alignItems": "center",
+	    "marginTop": 20,
+	    "marginBottom": 20,
+	    "flex": 1
+	  },
+	  "tool-icon": {
+	    "width": 63,
+	    "height": 63
+	  },
+	  "tool-title": {
+	    "fontSize": 12,
+	    "color": "#333333",
+	    "textAlign": "center"
 	  }
 	}
 
@@ -116,11 +151,88 @@
 /* 2 */
 /***/ (function(module, exports) {
 
-	'use strict';
+	"use strict";
 
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
 	//
 	//
 	//
@@ -137,41 +249,109 @@
 	//
 	//
 
-	exports.default = {
+
+	module.exports = {
 	  data: {
-	    logoUrl: 'http://img1.vued.vanthink.cn/vued08aa73a9ab65dcbd360ec54659ada97c.png',
-	    target: 'World'
+	    tools: [{ "title": "充值", "icon": "./images/icon_cz.png" }, { "title": "邀请", "icon": "./images/icon_invite.png" }, { "title": "礼劵", "icon": "./images/icon_lijuan.png" }],
+	    broadcastLists: ["习大大要来视察。。。", "习大大要来视察。。。", "习大大要来视察。。。", "习大大要来视察。。。"]
 	  },
-	  methods: {
-	    update: function update(e) {
-	      this.target = 'Weex';
-	      console.log('target:', this.target);
-	    }
-	  }
+	  created: function created() {
+	    var url = SEARCH_URL + '&page=' + this.page;
+
+	    this.renderData(url);
+
+	    this.page++;
+	  },
+	  methods: {}
 	};
-	module.exports = exports['default'];
 
 /***/ }),
 /* 3 */
 /***/ (function(module, exports) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('div', {}, [_vm._m(0), _c('div', {
+	    staticClass: ["tool-box"]
+	  }, _vm._l((_vm.tools), function(item) {
+	    return _c('div', {
+	      staticClass: ["tool"]
+	    }, [_c('div', [_c('image', {
+	      staticClass: ["tool-icon"],
+	      attrs: {
+	        "src": item.icon
+	      }
+	    }), _c('div', {
+	      staticStyle: {
+	        marginTop: "20px"
+	      }
+	    }, [_c('text', {
+	      staticClass: ["tool-title"]
+	    }, [_vm._v(_vm._s(item.title))])])]), _vm._v(">\n   ")])
+	  })), _c('div', {
+	    staticClass: ["broadcast"]
+	  }, [_vm._m(1), _c('div', {
+	    staticClass: ["broadcast-list-box"]
+	  }, [_c('slider', {
+	    staticClass: ["slider"],
+	    attrs: {
+	      "interval": "3000",
+	      "autoPlay": "true"
+	    }
+	  }, _vm._l((_vm.broadcastLists), function(text) {
+	    return _c('div', {
+	      staticClass: ["frame"]
+	    }, [_vm._v("\n          text>" + _vm._s(text))])
+	  }))]), _vm._m(2)])])
+	},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
 	  return _c('div', {
-	    staticClass: ["wrapper"],
-	    on: {
-	      "click": _vm.update
+	    staticClass: ["navigationBar"]
+	  }, [_c('div', {
+	    staticStyle: {
+	      flex: "1"
+	    }
+	  }, [_c('text', {
+	    staticClass: ["navigationBar-title"]
+	  }, [_vm._v("51用钱")])]), _c('div', {
+	    staticStyle: {
+	      flex: "1",
+	      flexDirection: "row",
+	      justifyContent: "flex-end"
+	    }
+	  }, [_c('div', {
+	    staticStyle: {
+	      marginRight: "15px"
 	    }
 	  }, [_c('image', {
-	    staticClass: ["logo"],
+	    staticClass: ["navigationBar-icon"],
 	    attrs: {
-	      "src": _vm.logoUrl
+	      "src": "./images/msg_icon.png"
 	    }
-	  }), _c('text', {
-	    staticClass: ["title"]
-	  }, [_vm._v("Hello " + _vm._s(_vm.target))]), _c('text', {
-	    staticClass: ["desc"]
-	  }, [_vm._v("Now, let's use vue to build your weex app.")])])
-	},staticRenderFns: []}
+	  })]), _c('div', {
+	    staticStyle: {
+	      marginRight: "22px"
+	    }
+	  }, [_c('image', {
+	    staticClass: ["navigationBar-icon"],
+	    attrs: {
+	      "src": "./images/icon_user.png"
+	    }
+	  })])])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('div', {
+	    staticStyle: {
+	      marginLeft: "10px"
+	    }
+	  }, [_c('image', {
+	    staticClass: ["broadcast-icon"],
+	    attrs: {
+	      "src": "./images/icon_broadcast.png"
+	    }
+	  })])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('div', {
+	    staticClass: ["broadcast-arrow"]
+	  }, [_c('text', [_vm._v(">>")])])
+	}]}
 	module.exports.render._withStripped = true
 
 /***/ })
