@@ -1,5 +1,6 @@
 PODS:
   - Masonry (1.1.0)
+  - MJRefresh (3.1.15.1)
   - SDWebImage (4.2.2):
     - SDWebImage/Core (= 4.2.2)
   - SDWebImage/Core (4.2.2)
@@ -7,14 +8,16 @@ PODS:
 
 DEPENDENCIES:
   - Masonry
+  - MJRefresh
   - SDWebImage
   - WeexSDK
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: 5f8552bc25ca8751c010f621c1098dbdaacbccd6
   SDWebImage: 89a9d32cd520bbb46eb14e541d5109b3564af198
   WeexSDK: ad8443f4290ef7cb241bbd4c03b02d9dfc9fdca2
 
-PODFILE CHECKSUM: b3d7c9e711457d27e00479b5e2556076f019391f
+PODFILE CHECKSUM: 83060ca2184fb376eb4a69c8900ba7f5fec65d9b
 
 COCOAPODS: 1.4.0.beta.2

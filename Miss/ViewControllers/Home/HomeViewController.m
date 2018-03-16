@@ -8,8 +8,9 @@
 
 #import "HomeViewController.h"
 #import <WeexSDK/WXSDKInstance.h>
+#import "DJZNormalHeader.h"
 
-@interface HomeViewController ()
+@interface HomeViewController () <UITableViewDataSource, UITableViewDelegate>
 
 @property (nonatomic, strong) WXSDKInstance *instance;
 @property (nonatomic, strong) UIView *weexView;
@@ -23,43 +24,37 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.title = @"首页";
-    _weexHeight = self.view.frame.size.height;
-    [self render];
+    [self addMainView];
+}
     
-    NSLog(@"");
-    NSLog(@"");
+-(void)addMainView{
+    UITableView *tableView = [UITableView new];
+    tableView.rowHeight = UITableViewAutomaticDimension;
+    tableView.estimatedRowHeight = 50;
+    tableView.dataSource = self;
+    tableView.delegate = self;
+    [self.view addSubview:tableView];
+    tableView.layout.insets(UIEdgeInsetsZero);
+    
+    tableView.mj_header = [DJZNormalHeader headerWithRefreshingBlock:^{
+        
+    }];
 }
 
-- (void)render
-{
-    _instance = [[WXSDKInstance alloc] init];
-    _instance.viewController = self;
-    CGFloat width = self.view.frame.size.width;
-    _instance.frame = CGRectMake(self.view.frame.size.width-width, 0, width, _weexHeight);
-    
-    __weak typeof(self) weakSelf = self;
-    _instance.onCreate = ^(UIView *view) {
-        [weakSelf.weexView removeFromSuperview];
-        weakSelf.weexView = view;
-        [weakSelf.view addSubview:weakSelf.weexView];
-        UIAccessibilityPostNotification(UIAccessibilityScreenChangedNotification, weakSelf.weexView);
-    };
-    _instance.onFailed = ^(NSError *error) {
-        NSLog(@"failed %@",error);
-    };
-    
-    _instance.renderFinish = ^(UIView *view) {
-        NSLog(@"render finish");
-    };
-    
-    _instance.updateFinish = ^(UIView *view) {
-        NSLog(@"update Finish");
-    };
-    NSString *url = [NSString stringWithFormat:@"file://%@/index1.js",[NSBundle mainBundle].bundlePath];
-    
-    [_instance renderWithURL:[NSURL URLWithString:url] options:@{@"bundleUrl":url} data:nil];
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return 50;
 }
-
+    
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
+    if(!cell){
+        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
+        cell.textLabel.text = @"狗年汪汪汪";
+    }
+    return cell;;
+}
+    
 - (void)dealloc
 {
     [_instance destroyInstance];

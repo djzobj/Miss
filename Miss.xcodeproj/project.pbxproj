@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2CB3ADEC085131510D163ACD /* libPods-Miss.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C495A2B931A00BE366D78B87 /* libPods-Miss.a */; };
+		463176B320494A4E00590E6C /* DJZNormalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 463176B220494A4E00590E6C /* DJZNormalHeader.m */; };
 		4672BA961FD6713100BF6620 /* icon_licai_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4672BA901FD6713000BF6620 /* icon_licai_selected@2x.png */; };
 		4672BA971FD6713100BF6620 /* icon_zichan_unselected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4672BA911FD6713000BF6620 /* icon_zichan_unselected@2x.png */; };
 		4672BA981FD6713100BF6620 /* icon_home_unselected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4672BA921FD6713000BF6620 /* icon_home_unselected@2x.png */; };
@@ -30,10 +31,13 @@
 		4698E5371FD568F700DC2C1E /* DJZNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4698E5361FD568F700DC2C1E /* DJZNavigationController.m */; };
 		4698E53A1FD569DD00DC2C1E /* DJZBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4698E5391FD569DD00DC2C1E /* DJZBaseController.m */; };
 		4698E53D1FD56AA600DC2C1E /* DJZTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4698E53C1FD56AA600DC2C1E /* DJZTabBarController.m */; };
+		46FA8F652017047F003D753C /* UIView+Constraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 46FA8F642017047F003D753C /* UIView+Constraint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		390F29D9CAE8484EABFFE339 /* Pods-Miss.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Miss.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Miss/Pods-Miss.debug.xcconfig"; sourceTree = "<group>"; };
+		463176B120494A4E00590E6C /* DJZNormalHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJZNormalHeader.h; sourceTree = "<group>"; };
+		463176B220494A4E00590E6C /* DJZNormalHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJZNormalHeader.m; sourceTree = "<group>"; };
 		4672BA901FD6713000BF6620 /* icon_licai_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_licai_selected@2x.png"; sourceTree = "<group>"; };
 		4672BA911FD6713000BF6620 /* icon_zichan_unselected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_zichan_unselected@2x.png"; sourceTree = "<group>"; };
 		4672BA921FD6713000BF6620 /* icon_home_unselected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_home_unselected@2x.png"; sourceTree = "<group>"; };
@@ -67,6 +71,9 @@
 		4698E5391FD569DD00DC2C1E /* DJZBaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJZBaseController.m; sourceTree = "<group>"; };
 		4698E53B1FD56AA600DC2C1E /* DJZTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJZTabBarController.h; sourceTree = "<group>"; };
 		4698E53C1FD56AA600DC2C1E /* DJZTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJZTabBarController.m; sourceTree = "<group>"; };
+		46A2E8662015E0CF00829F01 /* Miss-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Miss-Bridging-Header.h"; sourceTree = "<group>"; };
+		46FA8F632017047F003D753C /* UIView+Constraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Constraint.h"; sourceTree = "<group>"; };
+		46FA8F642017047F003D753C /* UIView+Constraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Constraint.m"; sourceTree = "<group>"; };
 		8EAAAD091E4757B1C168C08D /* Pods-Miss.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Miss.release.xcconfig"; path = "Pods/Target Support Files/Pods-Miss/Pods-Miss.release.xcconfig"; sourceTree = "<group>"; };
 		C495A2B931A00BE366D78B87 /* libPods-Miss.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Miss.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -120,6 +127,7 @@
 			children = (
 				4672BA9F1FD6747400BF6620 /* HomeViewController.h */,
 				4672BAA01FD6747400BF6620 /* HomeViewController.m */,
+				46A2E8662015E0CF00829F01 /* Miss-Bridging-Header.h */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -147,6 +155,8 @@
 		468816921FD6774C0063F86A /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				46FA8F632017047F003D753C /* UIView+Constraint.h */,
+				46FA8F642017047F003D753C /* UIView+Constraint.m */,
 				468816941FD677600063F86A /* UIColor+Extra.h */,
 				468816931FD677600063F86A /* UIColor+Extra.m */,
 			);
@@ -219,6 +229,8 @@
 		4698E5311FD5689700DC2C1E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				463176B120494A4E00590E6C /* DJZNormalHeader.h */,
+				463176B220494A4E00590E6C /* DJZNormalHeader.m */,
 			);
 			name = View;
 			path = Miss/View;
@@ -309,7 +321,7 @@
 				TargetAttributes = {
 					4681968B1F582457006FB93E = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = AV65WZLBH6;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -380,6 +392,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Miss/Pods-Miss-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 				"${PODS_ROOT}/WeexSDK/pre-build/native-bundle-main.js",
 				"${PODS_ROOT}/WeexSDK/ios/sdk/WeexSDK/Resources/wx_load_error@3x.png",
 			);
@@ -424,6 +437,8 @@
 				468816A11FD68DFF0063F86A /* WXImgLoaderDefaultImpl.m in Sources */,
 				4672BAA41FD6748400BF6620 /* CenterViewController.m in Sources */,
 				4672BAA71FD6749200BF6620 /* MineViewController.m in Sources */,
+				463176B320494A4E00590E6C /* DJZNormalHeader.m in Sources */,
+				46FA8F652017047F003D753C /* UIView+Constraint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,12 +540,17 @@
 			baseConfigurationReference = 390F29D9CAE8484EABFFE339 /* Pods-Miss.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = AV65WZLBH6;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				GCC_PREFIX_HEADER = Miss/Miss.pch;
 				INFOPLIST_FILE = Miss/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jianbing.jiekuan.beta;
+				PRODUCT_BUNDLE_IDENTIFIER = com.djz.181818;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Miss/ViewControllers/Home/Miss-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -539,12 +559,16 @@
 			baseConfigurationReference = 8EAAAD091E4757B1C168C08D /* Pods-Miss.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = AV65WZLBH6;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				GCC_PREFIX_HEADER = Miss/Miss.pch;
 				INFOPLIST_FILE = Miss/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jianbing.jiekuan.beta;
+				PRODUCT_BUNDLE_IDENTIFIER = com.djz.181818;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Miss/ViewControllers/Home/Miss-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
