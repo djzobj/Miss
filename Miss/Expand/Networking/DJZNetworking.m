@@ -107,8 +107,7 @@ static AFNetworkReachabilityStatus networkReachabilityStatus;
             successBlock(responseObject);
         }
         [requestTaskPool removeObject:session];
-    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _N
-                onnull error) {
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError *error) {
         if (failBlock) {
             failBlock(error);
         }
