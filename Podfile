@@ -7,4 +7,5 @@ target 'Miss' do
     pod 'Masonry'
     pod 'SDWebImage'
     pod 'MJRefresh'
+    pod 'AFNetworking'
 end

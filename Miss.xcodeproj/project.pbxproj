@@ -32,6 +32,7 @@
 		4698E53A1FD569DD00DC2C1E /* DJZBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4698E5391FD569DD00DC2C1E /* DJZBaseController.m */; };
 		4698E53D1FD56AA600DC2C1E /* DJZTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4698E53C1FD56AA600DC2C1E /* DJZTabBarController.m */; };
 		46FA8F652017047F003D753C /* UIView+Constraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 46FA8F642017047F003D753C /* UIView+Constraint.m */; };
+		E55C30172072254700D42B0B /* DJZNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E55C30162072254700D42B0B /* DJZNetworking.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +77,8 @@
 		46FA8F642017047F003D753C /* UIView+Constraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Constraint.m"; sourceTree = "<group>"; };
 		8EAAAD091E4757B1C168C08D /* Pods-Miss.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Miss.release.xcconfig"; path = "Pods/Target Support Files/Pods-Miss/Pods-Miss.release.xcconfig"; sourceTree = "<group>"; };
 		C495A2B931A00BE366D78B87 /* libPods-Miss.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Miss.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E55C30152072254700D42B0B /* DJZNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJZNetworking.h; sourceTree = "<group>"; };
+		E55C30162072254700D42B0B /* DJZNetworking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJZNetworking.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -251,6 +254,7 @@
 		4698E5331FD5689700DC2C1E /* Expand */ = {
 			isa = PBXGroup;
 			children = (
+				E55C30142072251200D42B0B /* Networking */,
 				468816921FD6774C0063F86A /* Category */,
 			);
 			name = Expand;
@@ -268,6 +272,15 @@
 				4698E53C1FD56AA600DC2C1E /* DJZTabBarController.m */,
 			);
 			name = Base;
+			sourceTree = "<group>";
+		};
+		E55C30142072251200D42B0B /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				E55C30152072254700D42B0B /* DJZNetworking.h */,
+				E55C30162072254700D42B0B /* DJZNetworking.m */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 		EAF3473A6E4CF8D94D7C9AE2 /* Frameworks */ = {
@@ -398,7 +411,9 @@
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/native-bundle-main.js",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/wx_load_error@3x.png",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -429,6 +444,7 @@
 			files = (
 				468816951FD677610063F86A /* UIColor+Extra.m in Sources */,
 				4698E52C1FD567ED00DC2C1E /* main.m in Sources */,
+				E55C30172072254700D42B0B /* DJZNetworking.m in Sources */,
 				4698E53A1FD569DD00DC2C1E /* DJZBaseController.m in Sources */,
 				4698E5371FD568F700DC2C1E /* DJZNavigationController.m in Sources */,
 				4698E53D1FD56AA600DC2C1E /* DJZTabBarController.m in Sources */,
