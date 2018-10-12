@@ -32,7 +32,6 @@
         make.edges.equalTo(weakself.view).insets(UIEdgeInsetsZero);
     }];
     self.navigationController.delegate = self;
-    NSLog(@"github hook");
 }
 
 - (BOOL) deptNumInputShouldNumber:(NSString *)str
