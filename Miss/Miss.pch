@@ -15,6 +15,9 @@
     #import <Foundation/Foundation.h>
     #import "UIColor+Extra.h"
     #import "Masonry.h"
+    #import "ZBNetworking.h"
+    #import "UIViewController+Syn.h"
+    #import <YYKit.h>
 #endif
 
 #ifdef DEBUG
@@ -30,3 +33,19 @@
 #endif
 
 #endif /* Miss_pch */
+
+#define kNavigationBarHeight (kStatusBarHeight + 44)
+#define kStatusBarHeight [UIApplication sharedApplication].statusBarFrame.size.height
+#define kMissScreenScale [UIScreen mainScreen].scale
+#define kMissScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kMissScreenHeight [UIScreen mainScreen].bounds.size.height
+#define kISPad (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+#define kISIphone_5s (kScreenWidth==320)
+#define KISIphoneX (CGSizeEqualToSize(CGSizeMake(375.f, 812.f), [UIScreen mainScreen].bounds.size) || CGSizeEqualToSize(CGSizeMake(812.f, 375.f), [UIScreen mainScreen].bounds.size))
+#define dimension(x) ceil(x)
+#define kFont(x) [UIFont systemFontOfSize:dimension(x)]
+#define kGjjFont(x) [UIFont systemFontOfSize:x]
+#define kScaleFont(x) [UIFont systemFontOfSize:kScalePt(x)]
+#define kScalePt(x) (kScreenWidth/375*x)
+#define kScalePtFor5s(x)  kISIphone_5s?kScalePt(x):x
+#define  WEAKSELF  __weak typeof(self) weakself = self;

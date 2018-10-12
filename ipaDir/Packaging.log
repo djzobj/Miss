@@ -1,0 +1,168 @@
+2018-10-11 12:01:08 +0000 [MT] Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fc82e353bf0; archive(resolved)='<IDEArchive: 0x7fc82e190840>', distributionTask(resolved)='2', distributionMethod(resolved)='<IDEDistributionMethodiOSEnterprise: 0x7fc82e0763e0>', team(resolved)='<IDEProvisioningBasicTeam: 0x7fc82e338b10; teamID='PX66CL7X2G', teamName='(null)'>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fc82e353bf0; archive = '<IDEArchive: 0x7fc82e190840>', distributionMethod='<IDEDistributionMethodiOSEnterprise: 0x7fc82e0763e0>', team='<IDEProvisioningBasicTeam: 0x7fc82e338b10; teamID='PX66CL7X2G', teamName='(null)'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fc82e34d7d0; archive = '<IDEArchive: 0x7fc82e190840>', distributionMethod='<IDEDistributionMethodiOSEnterprise: 0x7fc82e0763e0>', team='<IDEProvisioningBasicTeam: 0x7fc82e338b10; teamID='PX66CL7X2G', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fc82e34d5b0; archive = '<IDEArchive: 0x7fc82e190840>', distributionMethod='<IDEDistributionMethodiOSEnterprise: 0x7fc82e0763e0>', team='<IDEProvisioningBasicTeam: 0x7fc82e338b10; teamID='PX66CL7X2G', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fc82e4176b0; archive = '<IDEArchive: 0x7fc82e190840>', distributionMethod='<IDEDistributionMethodiOSEnterprise: 0x7fc82e0763e0>', team='<IDEProvisioningBasicTeam: 0x7fc82e338b10; teamID='PX66CL7X2G', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fc82e4028b0; archive = '<IDEArchive: 0x7fc82e190840>', distributionMethod='<IDEDistributionMethodiOSEnterprise: 0x7fc82e0763e0>', team='<IDEProvisioningBasicTeam: 0x7fc82e338b10; teamID='PX66CL7X2G', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fc82e400390; archive = '<IDEArchive: 0x7fc82e190840>', distributionMethod='<IDEDistributionMethodiOSEnterprise: 0x7fc82e0763e0>', team='<IDEProvisioningBasicTeam: 0x7fc82e338b10; teamID='PX66CL7X2G', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fc82e4108a0; archive = '<IDEArchive: 0x7fc82e190840>', distributionMethod='<IDEDistributionMethodiOSEnterprise: 0x7fc82e0763e0>', team='<IDEProvisioningBasicTeam: 0x7fc82e338b10; teamID='PX66CL7X2G', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fc82e42e390; archive = '<IDEArchive: 0x7fc82e190840>', distributionMethod='<IDEDistributionMethodiOSEnterprise: 0x7fc82e0763e0>', team='<IDEProvisioningBasicTeam: 0x7fc82e338b10; teamID='PX66CL7X2G', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fc82e2375b0; archive = '<IDEArchive: 0x7fc82e190840>', distributionMethod='<IDEDistributionMethodiOSEnterprise: 0x7fc82e0763e0>', team='<IDEProvisioningBasicTeam: 0x7fc82e338b10; teamID='PX66CL7X2G', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fc8296dbef0; archive = '<IDEArchive: 0x7fc82e190840>', distributionMethod='<IDEDistributionMethodiOSEnterprise: 0x7fc82e0763e0>', team='(null)'>
+	<IDEDistributionContext: 0x7fc82e191470; archive = '<IDEArchive: 0x7fc82e190840>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fc82e353bf0>
+2018-10-11 12:01:08 +0000 [MT] Processing step: IDEDistributionCreateDestRootStep
+2018-10-11 12:01:08 +0000 [MT] Processing step: IDEDistributionCopyItemStep
+2018-10-11 12:01:08 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/zhangdejun/Desktop/Miss/Build/Crontab-iphoneos/Miss.xcarchive/Products/Applications/Miss.app' '/var/folders/10/hryrljcj7qx4xfkvr7rkj5hr0000gn/T/XcodeDistPipeline.uKN/Root/Payload/Miss.app'
+2018-10-11 12:01:08 +0000  >>> Copying /Users/zhangdejun/Desktop/Miss/Build/Crontab-iphoneos/Miss.xcarchive/Products/Applications/Miss.app 
+2018-10-11 12:01:08 +0000  copying file ./_CodeSignature/CodeResources ... 
+2018-10-11 12:01:08 +0000  8726 bytes for ./_CodeSignature/CodeResources
+2018-10-11 12:01:08 +0000  copying file ./icon_home_unselected@2x.png ... 
+2018-10-11 12:01:08 +0000  1191 bytes for ./icon_home_unselected@2x.png
+copying file ./ico_title_back@2x.png ... 
+2018-10-11 12:01:08 +0000  307 bytes for ./ico_title_back@2x.png
+copying file ./icon_licai_selected@2x.png ... 
+2018-10-11 12:01:08 +0000  714 bytes for ./icon_licai_selected@2x.png
+2018-10-11 12:01:08 +0000  copying file ./MJRefresh.bundle/zh-Hans.lproj/Localizable.strings ... 
+2018-10-11 12:01:08 +0000  1194 bytes for ./MJRefresh.bundle/zh-Hans.lproj/Localizable.strings
+2018-10-11 12:01:08 +0000  copying file ./MJRefresh.bundle/en.lproj/Localizable.strings ... 
+2018-10-11 12:01:08 +0000  691 bytes for ./MJRefresh.bundle/en.lproj/Localizable.strings
+2018-10-11 12:01:08 +0000  copying file ./MJRefresh.bundle/arrow@2x.png ... 
+2018-10-11 12:01:08 +0000  1033 bytes for ./MJRefresh.bundle/arrow@2x.png
+2018-10-11 12:01:08 +0000  copying file ./MJRefresh.bundle/zh-Hant.lproj/Localizable.strings ... 
+2018-10-11 12:01:08 +0000  773 bytes for ./MJRefresh.bundle/zh-Hant.lproj/Localizable.strings
+2018-10-11 12:01:08 +0000  copying file ./icon_zichan_selected@2x.png ... 
+2018-10-11 12:01:08 +0000  363 bytes for ./icon_zichan_selected@2x.png
+2018-10-11 12:01:08 +0000  copying file ./hello.js ... 
+2018-10-11 12:01:08 +0000  2024 bytes for ./hello.js
+2018-10-11 12:01:08 +0000  copying file ./index.js ... 
+2018-10-11 12:01:08 +0000  7376 bytes for ./index.js
+copying file ./LaunchScreen.nib ... 
+2018-10-11 12:01:08 +0000  2101 bytes for ./LaunchScreen.nib
+copying file ./README.md ... 
+2018-10-11 12:01:08 +0000  476 bytes for ./README.md
+2018-10-11 12:01:08 +0000  copying file ./icon_zichan_unselected@2x.png ... 
+2018-10-11 12:01:08 +0000  381 bytes for ./icon_zichan_unselected@2x.png
+2018-10-11 12:01:08 +0000  copying file ./index1.js ... 
+2018-10-11 12:01:08 +0000  12964 bytes for ./index1.js
+copying file ./Miss ... 
+2018-10-11 12:01:08 +0000  39322352 bytes for ./Miss
+copying file ./.gitignore ... 
+2018-10-11 12:01:08 +0000  166 bytes for ./.gitignore
+copying file ./wx_load_error@3x.png ... 
+2018-10-11 12:01:08 +0000  18093 bytes for ./wx_load_error@3x.png
+2018-10-11 12:01:08 +0000  copying file ./embedded.mobileprovision ... 
+2018-10-11 12:01:08 +0000  7655 bytes for ./embedded.mobileprovision
+2018-10-11 12:01:08 +0000  copying file ./icon_home_selected@2x.png ... 
+2018-10-11 12:01:08 +0000  1154 bytes for ./icon_home_selected@2x.png
+2018-10-11 12:01:08 +0000  copying file ./native-bundle-main.js ... 
+2018-10-11 12:01:08 +0000  250398 bytes for ./native-bundle-main.js
+2018-10-11 12:01:08 +0000  copying file ./Info.plist ... 
+2018-10-11 12:01:08 +0000  982 bytes for ./Info.plist
+2018-10-11 12:01:08 +0000  copying file ./PkgInfo ... 
+2018-10-11 12:01:08 +0000  8 bytes for ./PkgInfo
+copying file ./icon_licai_unselected.png ... 
+2018-10-11 12:01:08 +0000  423 bytes for ./icon_licai_unselected.png
+2018-10-11 12:01:08 +0000  2018-10-11 12:01:08 +0000  
+
+2018-10-11 12:01:08 +0000  2018-10-11 12:01:08 +0000 [MT] /usr/bin/ditto exited with 0
+
+2018-10-11 12:01:08 +0000  
+2018-10-11 12:01:08 +0000  
+2018-10-11 12:01:08 +0000 [MT] Processing step: IDEDistributionEmbedProfileStep
+2018-10-11 12:01:08 +0000 [MT] Processing step: IDEDistributionAppThinningPlistStep
+2018-10-11 12:01:08 +0000 [MT] Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2018-10-11 12:01:08 +0000 [MT] Processing step: IDEDistributionCompileBitcodeStep
+2018-10-11 12:01:08 +0000 [MT] Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2018-10-11 12:01:08 +0000 [MT] Processing step: IDEDistributionCodeSlimmingStep
+2018-10-11 12:01:08 +0000 [MT] Processing step: IDEDistributionCopyBCSymbolMapsStep
+2018-10-11 12:01:08 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-10-11 12:01:08 +0000 [MT] Processing step: IDEDistributionSymbolsStep
+2018-10-11 12:01:08 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2018-10-11 12:01:08 +0000 [MT] Processing step: IDEDistributionAppThinningStep
+2018-10-11 12:01:08 +0000 [MT] Skipping step: IDEDistributionAppThinningStep because it said so
+2018-10-11 12:01:08 +0000 [MT] Processing step: IDEDistributionODRStep
+2018-10-11 12:01:08 +0000 [MT] Processing step: IDEDistributionStripXattrsStep
+2018-10-11 12:01:08 +0000 [MT] Running /usr/bin/xattr '-crs' '/var/folders/10/hryrljcj7qx4xfkvr7rkj5hr0000gn/T/XcodeDistPipeline.uKN/Root/Payload/Miss.app'
+2018-10-11 12:01:09 +0000  
+2018-10-11 12:01:09 +0000  
+2018-10-11 12:01:09 +0000 [MT] /usr/bin/xattr exited with 0
+2018-10-11 12:01:09 +0000  
+2018-10-11 12:01:09 +0000  
+2018-10-11 12:01:09 +0000 [MT] Processing step: IDEDistributionCodesignStep
+2018-10-11 12:01:09 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7fc82e2fb100 'com.jianbing.qiye.gjj.test' '<DVTFilePath:0x7fc82e191050:'/Users/zhangdejun/Desktop/Miss/Build/Crontab-iphoneos/Miss.xcarchive/Products/Applications/Miss.app'>'>: {
+    "application-identifier" = "PX66CL7X2G.com.jianbing.qiye.gjj.test";
+    "com.apple.developer.team-identifier" = PX66CL7X2G;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "PX66CL7X2G.com.jianbing.qiye.gjj.test"
+    );
+}
+2018-10-11 12:01:09 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7fc82e2fb100 'com.jianbing.qiye.gjj.test' '<DVTFilePath:0x7fc82e191050:'/Users/zhangdejun/Desktop/Miss/Build/Crontab-iphoneos/Miss.xcarchive/Products/Applications/Miss.app'>'> to: /var/folders/10/hryrljcj7qx4xfkvr7rkj5hr0000gn/T/XcodeDistPipeline.uKN/entitlementsSIeRSP
+2018-10-11 12:01:09 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '3CE74ACAA6B0F7A8C429525793E21B9B9F92F047' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/10/hryrljcj7qx4xfkvr7rkj5hr0000gn/T/XcodeDistPipeline.uKN/entitlementsSIeRSP' '/var/folders/10/hryrljcj7qx4xfkvr7rkj5hr0000gn/T/XcodeDistPipeline.uKN/Root/Payload/Miss.app'
+2018-10-11 12:01:09 +0000  /var/folders/10/hryrljcj7qx4xfkvr7rkj5hr0000gn/T/XcodeDistPipeline.uKN/Root/Payload/Miss.app: signed app bundle with Mach-O universal (armv7 arm64) [com.jianbing.qiye.gjj.test]
+2018-10-11 12:01:09 +0000  
+2018-10-11 12:01:09 +0000  
+2018-10-11 12:01:09 +0000 [MT] /usr/bin/codesign exited with 0
+2018-10-11 12:01:09 +0000  
+2018-10-11 12:01:09 +0000  
+2018-10-11 12:01:09 +0000 [MT] Processing step: IDEDistributionStreamingZipItemStep
+2018-10-11 12:01:09 +0000 [MT] Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-10-11 12:01:09 +0000 [MT] Processing step: IDEDistributionCreateIPAStep
+2018-10-11 12:01:09 +0000 [MT] Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/10/hryrljcj7qx4xfkvr7rkj5hr0000gn/T/XcodeDistPipeline.uKN/Root' '/var/folders/10/hryrljcj7qx4xfkvr7rkj5hr0000gn/T/XcodeDistPipeline.uKN/Packages/Miss.ipa'
+2018-10-11 12:01:09 +0000  >>> Copying /var/folders/10/hryrljcj7qx4xfkvr7rkj5hr0000gn/T/XcodeDistPipeline.uKN/Root 
+2018-10-11 12:01:09 +0000  copying file ./Payload/Miss.app/_CodeSignature/CodeResources ... 
+2018-10-11 12:01:09 +0000  8726 bytes for ./Payload/Miss.app/_CodeSignature/CodeResources
+2018-10-11 12:01:09 +0000  copying file ./Payload/Miss.app/icon_home_unselected@2x.png ... 
+1191 bytes for ./Payload/Miss.app/icon_home_unselected@2x.png
+copying file ./Payload/Miss.app/ico_title_back@2x.png ... 
+2018-10-11 12:01:09 +0000  307 bytes for ./Payload/Miss.app/ico_title_back@2x.png
+copying file ./Payload/Miss.app/icon_licai_selected@2x.png ... 
+2018-10-11 12:01:09 +0000  714 bytes for ./Payload/Miss.app/icon_licai_selected@2x.png
+2018-10-11 12:01:09 +0000  copying file ./Payload/Miss.app/MJRefresh.bundle/zh-Hans.lproj/Localizable.strings ... 
+2018-10-11 12:01:09 +0000  1194 bytes for ./Payload/Miss.app/MJRefresh.bundle/zh-Hans.lproj/Localizable.strings
+2018-10-11 12:01:09 +0000  copying file ./Payload/Miss.app/MJRefresh.bundle/en.lproj/Localizable.strings ... 
+2018-10-11 12:01:09 +0000  691 bytes for ./Payload/Miss.app/MJRefresh.bundle/en.lproj/Localizable.strings
+2018-10-11 12:01:09 +0000  copying file ./Payload/Miss.app/MJRefresh.bundle/arrow@2x.png ... 
+2018-10-11 12:01:09 +0000  1033 bytes for ./Payload/Miss.app/MJRefresh.bundle/arrow@2x.png
+copying file ./Payload/Miss.app/MJRefresh.bundle/zh-Hant.lproj/Localizable.strings ... 
+2018-10-11 12:01:09 +0000  773 bytes for ./Payload/Miss.app/MJRefresh.bundle/zh-Hant.lproj/Localizable.strings
+copying file ./Payload/Miss.app/icon_zichan_selected@2x.png ... 
+2018-10-11 12:01:09 +0000  363 bytes for ./Payload/Miss.app/icon_zichan_selected@2x.png
+copying file ./Payload/Miss.app/hello.js ... 
+2018-10-11 12:01:09 +0000  2024 bytes for ./Payload/Miss.app/hello.js
+copying file ./Payload/Miss.app/index.js ... 
+2018-10-11 12:01:09 +0000  7376 bytes for ./Payload/Miss.app/index.js
+copying file ./Payload/Miss.app/LaunchScreen.nib ... 
+2018-10-11 12:01:09 +0000  2101 bytes for ./Payload/Miss.app/LaunchScreen.nib
+copying file ./Payload/Miss.app/README.md ... 
+2018-10-11 12:01:09 +0000  476 bytes for ./Payload/Miss.app/README.md
+copying file ./Payload/Miss.app/icon_zichan_unselected@2x.png ... 
+2018-10-11 12:01:09 +0000  381 bytes for ./Payload/Miss.app/icon_zichan_unselected@2x.png
+copying file ./Payload/Miss.app/index1.js ... 
+2018-10-11 12:01:09 +0000  12964 bytes for ./Payload/Miss.app/index1.js
+copying file ./Payload/Miss.app/Miss ... 
+2018-10-11 12:01:09 +0000  6067408 bytes for ./Payload/Miss.app/Miss
+copying file ./Payload/Miss.app/.gitignore ... 
+2018-10-11 12:01:09 +0000  166 bytes for ./Payload/Miss.app/.gitignore
+copying file ./Payload/Miss.app/wx_load_error@3x.png ... 
+18093 bytes for ./Payload/Miss.app/wx_load_error@3x.png
+copying file ./Payload/Miss.app/embedded.mobileprovision ... 
+7655 bytes for ./Payload/Miss.app/embedded.mobileprovision
+copying file ./Payload/Miss.app/icon_home_selected@2x.png ... 
+1154 bytes for ./Payload/Miss.app/icon_home_selected@2x.png
+copying file ./Payload/Miss.app/native-bundle-main.js ... 
+2018-10-11 12:01:09 +0000  250398 bytes for ./Payload/Miss.app/native-bundle-main.js
+copying file ./Payload/Miss.app/Info.plist ... 
+2018-10-11 12:01:09 +0000  982 bytes for ./Payload/Miss.app/Info.plist
+copying file ./Payload/Miss.app/PkgInfo ... 
+2018-10-11 12:01:09 +0000  8 bytes for ./Payload/Miss.app/PkgInfo
+copying file ./Payload/Miss.app/icon_licai_unselected.png ... 
+2018-10-11 12:01:09 +0000  423 bytes for ./Payload/Miss.app/icon_licai_unselected.png
+2018-10-11 12:01:09 +0000  
+2018-10-11 12:01:09 +0000  
+2018-10-11 12:01:09 +0000 [MT] /usr/bin/ditto exited with 0
+2018-10-11 12:01:09 +0000  
+2018-10-11 12:01:09 +0000  2018-10-11 12:01:09 +0000 [MT] Processing step: IDEDistributionCreateManifestStep
+

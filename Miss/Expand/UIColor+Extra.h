@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface UIColor(Extra)
-+(UIColor*)colorWithRGB:(NSString*)string;
++(UIColor*)miss_colorWithRGB:(NSString*)string;
 
 +(UIColor*)darkGray;
 +(UIColor*)strongGray;

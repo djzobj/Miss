@@ -6,4 +6,7 @@ target 'Miss' do
     pod 'WeexSDK'
     pod 'Masonry'
     pod 'SDWebImage'
+    pod 'YYKit'
+    pod 'AFNetworking'
+    pod 'MJRefresh'
 end

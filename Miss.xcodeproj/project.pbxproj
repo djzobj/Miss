@@ -30,6 +30,21 @@
 		4698E5371FD568F700DC2C1E /* DJZNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4698E5361FD568F700DC2C1E /* DJZNavigationController.m */; };
 		4698E53A1FD569DD00DC2C1E /* DJZBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4698E5391FD569DD00DC2C1E /* DJZBaseController.m */; };
 		4698E53D1FD56AA600DC2C1E /* DJZTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4698E53C1FD56AA600DC2C1E /* DJZTabBarController.m */; };
+		E54EEE2E21609B8600BFC4A6 /* MissDatabaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = E54EEE2D21609B8600BFC4A6 /* MissDatabaseController.m */; };
+		E54EEE3021609BCE00BFC4A6 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E54EEE2F21609BCE00BFC4A6 /* libsqlite3.0.tbd */; };
+		E5650D57215BA23500BBE637 /* KLTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5650D52215BA23500BBE637 /* KLTNavigationController.m */; };
+		E5650D58215BA23500BBE637 /* AnimationContoller.m in Sources */ = {isa = PBXBuildFile; fileRef = E5650D54215BA23500BBE637 /* AnimationContoller.m */; };
+		E5650D59215BA23500BBE637 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E5650D55215BA23500BBE637 /* README.md */; };
+		E5650D5D215BB91400BBE637 /* CoreGraphicsController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5650D5C215BB91400BBE637 /* CoreGraphicsController.m */; };
+		E5650D61215BB98500BBE637 /* GraphicsView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5650D60215BB98500BBE637 /* GraphicsView.m */; };
+		E5C15092215A2ABF00A17FD0 /* MissYYTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C15091215A2ABF00A17FD0 /* MissYYTestController.m */; };
+		E5C15095215A388A00A17FD0 /* UIViewController+Syn.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C15094215A388A00A17FD0 /* UIViewController+Syn.m */; };
+		E5C15097215A3A2D00A17FD0 /* ico_title_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C15096215A3A2D00A17FD0 /* ico_title_back@2x.png */; };
+		E5E058D82119BBBE00F7BFD1 /* ZBMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E058CF2119BBBE00F7BFD1 /* ZBMemoryCache.m */; };
+		E5E058D92119BBBE00F7BFD1 /* ZBDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E058D12119BBBE00F7BFD1 /* ZBDiskCache.m */; };
+		E5E058DA2119BBBE00F7BFD1 /* ZBCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E058D22119BBBE00F7BFD1 /* ZBCacheManager.m */; };
+		E5E058DB2119BBBE00F7BFD1 /* ZBLRUManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E058D52119BBBE00F7BFD1 /* ZBLRUManager.m */; };
+		E5E058DC2119BBBE00F7BFD1 /* ZBNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E058D72119BBBE00F7BFD1 /* ZBNetworking.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +84,33 @@
 		4698E53C1FD56AA600DC2C1E /* DJZTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJZTabBarController.m; sourceTree = "<group>"; };
 		8EAAAD091E4757B1C168C08D /* Pods-Miss.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Miss.release.xcconfig"; path = "Pods/Target Support Files/Pods-Miss/Pods-Miss.release.xcconfig"; sourceTree = "<group>"; };
 		C495A2B931A00BE366D78B87 /* libPods-Miss.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Miss.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E54EEE2C21609B8600BFC4A6 /* MissDatabaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MissDatabaseController.h; sourceTree = "<group>"; };
+		E54EEE2D21609B8600BFC4A6 /* MissDatabaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MissDatabaseController.m; sourceTree = "<group>"; };
+		E54EEE2F21609BCE00BFC4A6 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		E5650D51215BA23500BBE637 /* AnimationContoller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationContoller.h; sourceTree = "<group>"; };
+		E5650D52215BA23500BBE637 /* KLTNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLTNavigationController.m; sourceTree = "<group>"; };
+		E5650D53215BA23500BBE637 /* KLTNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLTNavigationController.h; sourceTree = "<group>"; };
+		E5650D54215BA23500BBE637 /* AnimationContoller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationContoller.m; sourceTree = "<group>"; };
+		E5650D55215BA23500BBE637 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E5650D5B215BB91400BBE637 /* CoreGraphicsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphicsController.h; sourceTree = "<group>"; };
+		E5650D5C215BB91400BBE637 /* CoreGraphicsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreGraphicsController.m; sourceTree = "<group>"; };
+		E5650D5F215BB98500BBE637 /* GraphicsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GraphicsView.h; sourceTree = "<group>"; };
+		E5650D60215BB98500BBE637 /* GraphicsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GraphicsView.m; sourceTree = "<group>"; };
+		E5C15090215A2ABF00A17FD0 /* MissYYTestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MissYYTestController.h; sourceTree = "<group>"; };
+		E5C15091215A2ABF00A17FD0 /* MissYYTestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MissYYTestController.m; sourceTree = "<group>"; };
+		E5C15093215A388A00A17FD0 /* UIViewController+Syn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Syn.h"; sourceTree = "<group>"; };
+		E5C15094215A388A00A17FD0 /* UIViewController+Syn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Syn.m"; sourceTree = "<group>"; };
+		E5C15096215A3A2D00A17FD0 /* ico_title_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ico_title_back@2x.png"; sourceTree = "<group>"; };
+		E5E058CD2119BBBE00F7BFD1 /* ZBNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBNetworking.h; sourceTree = "<group>"; };
+		E5E058CF2119BBBE00F7BFD1 /* ZBMemoryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBMemoryCache.m; sourceTree = "<group>"; };
+		E5E058D02119BBBE00F7BFD1 /* ZBLRUManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBLRUManager.h; sourceTree = "<group>"; };
+		E5E058D12119BBBE00F7BFD1 /* ZBDiskCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBDiskCache.m; sourceTree = "<group>"; };
+		E5E058D22119BBBE00F7BFD1 /* ZBCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBCacheManager.m; sourceTree = "<group>"; };
+		E5E058D32119BBBE00F7BFD1 /* ZBMemoryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBMemoryCache.h; sourceTree = "<group>"; };
+		E5E058D42119BBBE00F7BFD1 /* ZBDiskCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBDiskCache.h; sourceTree = "<group>"; };
+		E5E058D52119BBBE00F7BFD1 /* ZBLRUManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBLRUManager.m; sourceTree = "<group>"; };
+		E5E058D62119BBBE00F7BFD1 /* ZBCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBCacheManager.h; sourceTree = "<group>"; };
+		E5E058D72119BBBE00F7BFD1 /* ZBNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBNetworking.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E54EEE3021609BCE00BFC4A6 /* libsqlite3.0.tbd in Frameworks */,
 				2CB3ADEC085131510D163ACD /* libPods-Miss.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -92,6 +135,7 @@
 				4672BA951FD6713100BF6620 /* icon_licai_unselected.png */,
 				4672BA931FD6713000BF6620 /* icon_zichan_selected@2x.png */,
 				4672BA911FD6713000BF6620 /* icon_zichan_unselected@2x.png */,
+				E5C15096215A3A2D00A17FD0 /* ico_title_back@2x.png */,
 			);
 			name = images;
 			path = Miss/images;
@@ -120,6 +164,13 @@
 			children = (
 				4672BA9F1FD6747400BF6620 /* HomeViewController.h */,
 				4672BAA01FD6747400BF6620 /* HomeViewController.m */,
+				E5C15090215A2ABF00A17FD0 /* MissYYTestController.h */,
+				E5C15091215A2ABF00A17FD0 /* MissYYTestController.m */,
+				E5650D5B215BB91400BBE637 /* CoreGraphicsController.h */,
+				E5650D5C215BB91400BBE637 /* CoreGraphicsController.m */,
+				E54EEE2C21609B8600BFC4A6 /* MissDatabaseController.h */,
+				E54EEE2D21609B8600BFC4A6 /* MissDatabaseController.m */,
+				E5650D5E215BB96500BBE637 /* view */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -177,6 +228,8 @@
 		4698E5201FD5678B00DC2C1E /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				E5B29375211A8C55005BD945 /* SDK */,
+				E5E058C92119BA3800F7BFD1 /* Networking */,
 				4698E5331FD5689700DC2C1E /* Expand */,
 				4698E5301FD5689700DC2C1E /* Model */,
 				4698E5311FD5689700DC2C1E /* View */,
@@ -254,13 +307,78 @@
 				4698E5391FD569DD00DC2C1E /* DJZBaseController.m */,
 				4698E53B1FD56AA600DC2C1E /* DJZTabBarController.h */,
 				4698E53C1FD56AA600DC2C1E /* DJZTabBarController.m */,
+				E5C15093215A388A00A17FD0 /* UIViewController+Syn.h */,
+				E5C15094215A388A00A17FD0 /* UIViewController+Syn.m */,
 			);
 			name = Base;
+			sourceTree = "<group>";
+		};
+		E5650D4F215BA23500BBE637 /* KLTAnimateNav-master */ = {
+			isa = PBXGroup;
+			children = (
+				E5650D50215BA23500BBE637 /* KLTAnimateNav */,
+				E5650D55215BA23500BBE637 /* README.md */,
+			);
+			path = "KLTAnimateNav-master";
+			sourceTree = "<group>";
+		};
+		E5650D50215BA23500BBE637 /* KLTAnimateNav */ = {
+			isa = PBXGroup;
+			children = (
+				E5650D51215BA23500BBE637 /* AnimationContoller.h */,
+				E5650D54215BA23500BBE637 /* AnimationContoller.m */,
+				E5650D53215BA23500BBE637 /* KLTNavigationController.h */,
+				E5650D52215BA23500BBE637 /* KLTNavigationController.m */,
+			);
+			path = KLTAnimateNav;
+			sourceTree = "<group>";
+		};
+		E5650D5E215BB96500BBE637 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				E5650D5F215BB98500BBE637 /* GraphicsView.h */,
+				E5650D60215BB98500BBE637 /* GraphicsView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		E5B29375211A8C55005BD945 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				E5650D4F215BA23500BBE637 /* KLTAnimateNav-master */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		E5E058C92119BA3800F7BFD1 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				E5E058CE2119BBBE00F7BFD1 /* Cache */,
+				E5E058CD2119BBBE00F7BFD1 /* ZBNetworking.h */,
+				E5E058D72119BBBE00F7BFD1 /* ZBNetworking.m */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		E5E058CE2119BBBE00F7BFD1 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				E5E058CF2119BBBE00F7BFD1 /* ZBMemoryCache.m */,
+				E5E058D02119BBBE00F7BFD1 /* ZBLRUManager.h */,
+				E5E058D12119BBBE00F7BFD1 /* ZBDiskCache.m */,
+				E5E058D22119BBBE00F7BFD1 /* ZBCacheManager.m */,
+				E5E058D32119BBBE00F7BFD1 /* ZBMemoryCache.h */,
+				E5E058D42119BBBE00F7BFD1 /* ZBDiskCache.h */,
+				E5E058D52119BBBE00F7BFD1 /* ZBLRUManager.m */,
+				E5E058D62119BBBE00F7BFD1 /* ZBCacheManager.h */,
+			);
+			path = Cache;
 			sourceTree = "<group>";
 		};
 		EAF3473A6E4CF8D94D7C9AE2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E54EEE2F21609BCE00BFC4A6 /* libsqlite3.0.tbd */,
 				C495A2B931A00BE366D78B87 /* libPods-Miss.a */,
 			);
 			name = Frameworks;
@@ -286,7 +404,6 @@
 				468196881F582457006FB93E /* Sources */,
 				468196891F582457006FB93E /* Frameworks */,
 				4681968A1F582457006FB93E /* Resources */,
-				27C82662C596B6E215B5FD8A /* [CP] Embed Pods Frameworks */,
 				0FB53D18BD6FF29E9CA98D26 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -309,8 +426,7 @@
 				TargetAttributes = {
 					4681968B1F582457006FB93E = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = AV65WZLBH6;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -341,11 +457,13 @@
 				4688169E1FD689230063F86A /* hello.js in Resources */,
 				4672BA9B1FD6713100BF6620 /* icon_licai_unselected.png in Resources */,
 				4698E52D1FD567ED00DC2C1E /* Info.plist in Resources */,
+				E5C15097215A3A2D00A17FD0 /* ico_title_back@2x.png in Resources */,
 				4672BA971FD6713100BF6620 /* icon_zichan_unselected@2x.png in Resources */,
 				469405561FD7873D0042C527 /* index1.js in Resources */,
 				4672BA961FD6713100BF6620 /* icon_licai_selected@2x.png in Resources */,
 				468816A31FD69B090063F86A /* index.js in Resources */,
 				4672BA981FD6713100BF6620 /* icon_home_unselected@2x.png in Resources */,
+				E5650D59215BA23500BBE637 /* README.md in Resources */,
 				4672BA991FD6713100BF6620 /* icon_zichan_selected@2x.png in Resources */,
 				468816991FD6819D0063F86A /* LaunchScreen.xib in Resources */,
 				4672BA9A1FD6713100BF6620 /* icon_home_selected@2x.png in Resources */,
@@ -380,31 +498,19 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Miss/Pods-Miss-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 				"${PODS_ROOT}/WeexSDK/pre-build/native-bundle-main.js",
 				"${PODS_ROOT}/WeexSDK/ios/sdk/WeexSDK/Resources/wx_load_error@3x.png",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/native-bundle-main.js",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/wx_load_error@3x.png",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Miss/Pods-Miss-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		27C82662C596B6E215B5FD8A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Miss/Pods-Miss-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -415,14 +521,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				468816951FD677610063F86A /* UIColor+Extra.m in Sources */,
+				E5E058DB2119BBBE00F7BFD1 /* ZBLRUManager.m in Sources */,
 				4698E52C1FD567ED00DC2C1E /* main.m in Sources */,
+				E5C15092215A2ABF00A17FD0 /* MissYYTestController.m in Sources */,
+				E5E058DA2119BBBE00F7BFD1 /* ZBCacheManager.m in Sources */,
+				E5650D61215BB98500BBE637 /* GraphicsView.m in Sources */,
 				4698E53A1FD569DD00DC2C1E /* DJZBaseController.m in Sources */,
 				4698E5371FD568F700DC2C1E /* DJZNavigationController.m in Sources */,
+				E5C15095215A388A00A17FD0 /* UIViewController+Syn.m in Sources */,
+				E5E058D82119BBBE00F7BFD1 /* ZBMemoryCache.m in Sources */,
+				E5650D57215BA23500BBE637 /* KLTNavigationController.m in Sources */,
 				4698E53D1FD56AA600DC2C1E /* DJZTabBarController.m in Sources */,
+				E5E058DC2119BBBE00F7BFD1 /* ZBNetworking.m in Sources */,
 				4698E5271FD567DC00DC2C1E /* AppDelegate.m in Sources */,
+				E5E058D92119BBBE00F7BFD1 /* ZBDiskCache.m in Sources */,
 				4672BAA11FD6747400BF6620 /* HomeViewController.m in Sources */,
 				468816A11FD68DFF0063F86A /* WXImgLoaderDefaultImpl.m in Sources */,
+				E5650D58215BA23500BBE637 /* AnimationContoller.m in Sources */,
+				E5650D5D215BB91400BBE637 /* CoreGraphicsController.m in Sources */,
 				4672BAA41FD6748400BF6620 /* CenterViewController.m in Sources */,
+				E54EEE2E21609B8600BFC4A6 /* MissDatabaseController.m in Sources */,
 				4672BAA71FD6749200BF6620 /* MineViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -525,12 +643,16 @@
 			baseConfigurationReference = 390F29D9CAE8484EABFFE339 /* Pods-Miss.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = AV65WZLBH6;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PREFIX_HEADER = Miss/Miss.pch;
 				INFOPLIST_FILE = Miss/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jianbing.jiekuan.beta;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jianbing.qiye.gjj.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -539,12 +661,16 @@
 			baseConfigurationReference = 8EAAAD091E4757B1C168C08D /* Pods-Miss.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = AV65WZLBH6;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = PX66CL7X2G;
 				GCC_PREFIX_HEADER = Miss/Miss.pch;
 				INFOPLIST_FILE = Miss/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jianbing.jiekuan.beta;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jianbing.qiye.gjj.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "76bc2e0b-3ae4-4847-b51c-428c72379175";
+				PROVISIONING_PROFILE_SPECIFIER = gjjQiYe_test_inhouse;
 			};
 			name = Release;
 		};

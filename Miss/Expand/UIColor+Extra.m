@@ -13,7 +13,7 @@ static NSMutableDictionary *sm_colors;
 
 @implementation UIColor(Extra)
 
-+(UIColor*)colorWithRGB:(NSString*)string{
++(UIColor*)miss_colorWithRGB:(NSString*)string{
     if (!string || ![string isKindOfClass:[NSString class]]) {
         return nil;
     }
@@ -68,7 +68,7 @@ static NSMutableDictionary *sm_colors;
  @return #333333
  */
 +(UIColor*)darkGray {
-    return [UIColor colorWithRGB:@"#263038"];
+    return [UIColor miss_colorWithRGB:@"#263038"];
 }
 
 /**
@@ -77,7 +77,7 @@ static NSMutableDictionary *sm_colors;
  @return #868686
  */
 +(UIColor*)strongGray {
-    return [UIColor colorWithRGB:@"#868686"];
+    return [UIColor miss_colorWithRGB:@"#868686"];
 }
 
 /**
@@ -86,7 +86,7 @@ static NSMutableDictionary *sm_colors;
  @return #a6a6a6
  */
 +(UIColor*)mediGray {
-    return [UIColor colorWithRGB:@"#a6a6a6"];
+    return [UIColor miss_colorWithRGB:@"#a6a6a6"];
 }
 
 /**
@@ -95,7 +95,7 @@ static NSMutableDictionary *sm_colors;
  @return #b9b9b9
  */
 +(UIColor*)regularGray  {
-    return [UIColor colorWithRGB:@"#b9b9b9"];
+    return [UIColor miss_colorWithRGB:@"#b9b9b9"];
 }
 
 /**
@@ -104,7 +104,7 @@ static NSMutableDictionary *sm_colors;
  @return #eeeeee
  */
 +(UIColor*)normGray {
-    return [UIColor colorWithRGB:@"#eeeeee"];
+    return [UIColor miss_colorWithRGB:@"#eeeeee"];
 }
 
 /**
@@ -113,7 +113,7 @@ static NSMutableDictionary *sm_colors;
  @return #f5f5f5
  */
 +(UIColor*)lightGray  {
-    return [UIColor colorWithRGB:@"#f5f5f5"];
+    return [UIColor miss_colorWithRGB:@"#f5f5f5"];
 }
 
 /**
@@ -122,7 +122,7 @@ static NSMutableDictionary *sm_colors;
  @return #f6f6f6
  */
 +(UIColor*)exLightGray {
-    return [UIColor colorWithRGB:@"#f6f6f6"];
+    return [UIColor miss_colorWithRGB:@"#f6f6f6"];
 }
 
 /**
@@ -132,7 +132,7 @@ static NSMutableDictionary *sm_colors;
  */
 +(UIColor*)skyBlue  {
     
-    return [UIColor colorWithRGB:@"#4678e7"];
+    return [UIColor miss_colorWithRGB:@"#4678e7"];
 }
 
 /**
@@ -142,7 +142,7 @@ static NSMutableDictionary *sm_colors;
  */
 +(UIColor*)orange {
     
-    return [UIColor colorWithRGB:@"#ff7800"];
+    return [UIColor miss_colorWithRGB:@"#ff7800"];
 }
 
 /**
@@ -151,7 +151,7 @@ static NSMutableDictionary *sm_colors;
  @return #fcb200
  */
 +(UIColor*)yellow {
-    return [UIColor colorWithRGB:@"#fcb200"];
+    return [UIColor miss_colorWithRGB:@"#fcb200"];
 }
 
 /**
@@ -160,7 +160,7 @@ static NSMutableDictionary *sm_colors;
  @return #263038
  */
 +(UIColor*)darkBlue {
-    return [UIColor colorWithRGB:@"#263038"];
+    return [UIColor miss_colorWithRGB:@"#263038"];
 }
 
 /**
@@ -169,7 +169,7 @@ static NSMutableDictionary *sm_colors;
  @return #40beee
  */
 +(UIColor*)lightBlue {
-    return [UIColor colorWithRGB:@"#40beee"];
+    return [UIColor miss_colorWithRGB:@"#40beee"];
 }
 
 /**
@@ -178,7 +178,7 @@ static NSMutableDictionary *sm_colors;
  @return #29c675
  */
 +(UIColor*)treeGreen {
-    return [UIColor colorWithRGB:@"#29c675"];
+    return [UIColor miss_colorWithRGB:@"#29c675"];
 }
 
 /**
@@ -187,7 +187,7 @@ static NSMutableDictionary *sm_colors;
  @return #dcdcdc
  */
 +(UIColor*)shadowGray {
-    return [UIColor colorWithRGB:@"#dcdcdc"];
+    return [UIColor miss_colorWithRGB:@"#dcdcdc"];
 }
 
 /**
@@ -196,7 +196,7 @@ static NSMutableDictionary *sm_colors;
  @return #ff6666
  */
 +(UIColor*)red{
-    return [UIColor colorWithRGB:@"#ff6666"];
+    return [UIColor miss_colorWithRGB:@"#ff6666"];
 }
 
 
@@ -206,7 +206,7 @@ static NSMutableDictionary *sm_colors;
  @return #666666
  */
 +(UIColor*)dullGray{
-    return [UIColor colorWithRGB:@"#666666"];
+    return [UIColor miss_colorWithRGB:@"#666666"];
 }
 
 /**
@@ -215,7 +215,7 @@ static NSMutableDictionary *sm_colors;
  @return #3333333
  */
 +(UIColor*)gray3{
-    return [UIColor colorWithRGB:@"#333333"];
+    return [UIColor miss_colorWithRGB:@"#333333"];
 }
 
 
@@ -225,7 +225,7 @@ static NSMutableDictionary *sm_colors;
  @return #444444
  */
 +(UIColor*)gray4{
-    return [UIColor colorWithRGB:@"#444444"];
+    return [UIColor miss_colorWithRGB:@"#444444"];
 }
 
 /**
@@ -234,7 +234,7 @@ static NSMutableDictionary *sm_colors;
  @return #5555555
  */
 +(UIColor*)gray5{
-    return [UIColor colorWithRGB:@"#555555"];
+    return [UIColor miss_colorWithRGB:@"#555555"];
 }
 
 /**
@@ -243,7 +243,7 @@ static NSMutableDictionary *sm_colors;
  @return #666666
  */
 +(UIColor*)gray6{
-    return [UIColor colorWithRGB:@"#666666"];
+    return [UIColor miss_colorWithRGB:@"#666666"];
 }
 
 /**
@@ -252,7 +252,7 @@ static NSMutableDictionary *sm_colors;
  @return #999999
  */
 +(UIColor*)gray9{
-    return [UIColor colorWithRGB:@"#999999"];
+    return [UIColor miss_colorWithRGB:@"#999999"];
 }
 
 /**
@@ -261,7 +261,7 @@ static NSMutableDictionary *sm_colors;
  @return #bccoca
  */
 +(UIColor *)disabledGray {
-    return [UIColor colorWithRGB:@"#bcc0ca"];
+    return [UIColor miss_colorWithRGB:@"#bcc0ca"];
 }
 
 @end

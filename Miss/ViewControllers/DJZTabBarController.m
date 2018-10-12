@@ -8,6 +8,7 @@
 
 #import "DJZTabBarController.h"
 #import "DJZNavigationController.h"
+#import "KLTNavigationController.h"
 
 @interface DJZTabBarController ()
 
